@@ -17,6 +17,7 @@ d = {
     'Ó':'O', 'Ö':'O', 'Ő':'O', 'Ú':'U', 'Ü':'U', 'Ű':'U'
     }
 
+
 def main():
     print("\n============Replace without dictionary============")
     for c in TEXT:
