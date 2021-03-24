@@ -67,6 +67,7 @@ what you're at-- there"; and he threw down three or four gold pieces on
 the threshold. "You can tell me when I've worked through that," says he,
 looking as fierce as a commander."""
 
+
 def main():
     d = {}
     words = TEXT.lower().replace(',', '').replace('"', '').replace(';', '').replace('?','').replace('-','').replace('.', '').replace('_', '').split()
