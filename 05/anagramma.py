@@ -2,7 +2,6 @@
 
 
 def normalize(string):
-
     normalized_string = ("".join(string.split())).lower()
     return normalized_string
     
@@ -14,7 +13,6 @@ def is_anagram(s1, s2):
 
 
 def main():
-
     string1 = input("Enter the first string: ")
     string2 = input("Enter the second string: ")
     
