@@ -2,11 +2,12 @@
 
 
 def main():
-    chars = "abcdefghijklmnopqrstuvwxyz"    
-    codes = list(range(ord('a'), ord('z') + 1))  
-
-    for t in zip(chars, codes):
-        print(t)
+    with open('string1.py', 'r') as f, open('string1_clean.py','w') as to:
+        for line in f:            
+            if line.strip().startswith('#') or line.strip().startswith("\n"):
+                continue
+            to.write(line)
+        print("File: String1_clean.py created.")
 
 #############################################################################
 
