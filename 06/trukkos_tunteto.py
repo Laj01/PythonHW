@@ -24,7 +24,7 @@ BINARY2 = """
 """
 
 
-def bite_to_char(input):
+def byte_to_char(input):
     decoded = []
     message = ''
     
@@ -36,8 +36,8 @@ def bite_to_char(input):
     
 
 def main():
-    print("Demonstrator's message:", bite_to_char(BINARY1))
-    print("Apple's message:", bite_to_char(BINARY2))
+    print("Demonstrator's message: ", byte_to_char(BINARY1))
+    print("Apple's message: ", byte_to_char(BINARY2))
 
 #############################################################################
 
