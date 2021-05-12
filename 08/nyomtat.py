@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-from typing import List
+from typing import List, Any
 
 
-def printer(data: str) -> List[int]:
+def printer(data: Any) -> List[int]:
     individual_pages = set()
     data = data.split(',')
     for e in data:
